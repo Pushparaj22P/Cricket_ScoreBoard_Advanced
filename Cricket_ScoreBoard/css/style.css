@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(18, 223, 80);
+    color: #f4f3f3;
+    position: fixed;
+    width: 100%;
+}
+.navbar_components{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.navbar_components a{
+    display: flex;
+    padding-left: 55px;
+    color: #000;
+}
+.card{
+    display: flex;
+    margin-top: 50px;
+}
+.section1{
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* justify-content: center; */
+    padding-top: 5%;
+    justify-content: space-around;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 223, 80);
+    margin-top: 15%;
+    height: 50px;
+}
