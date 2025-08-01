@@ -1,10 +1,16 @@
+body {
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(18, 223, 80);
     color: #f4f3f3;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 .navbar_components{
@@ -37,3 +43,178 @@
     margin-top: 15%;
     height: 50px;
 }
+.form_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10%;
+}
+#create_button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#create_button:hover {
+    background-color: #218838;
+}
+
+.form_container input,label,button{
+    padding: 8px;
+    font-size: 14px;
+}
+.teams{
+    background-color: #87f0a0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 25px;
+    font-style: oblique;
+}
+.teams a{
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 20px;
+    border: solid 4px;
+    border-color: #01530c;
+}
+    .add-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 25px 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      border: solid 4px;
+    }
+
+    .add-container h3 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .add-container label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .add-container input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: border-color 0.3s;
+      box-sizing: border-box;
+    }
+
+    .add-container input:focus,
+    select:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+
+    .add-container button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #0bfc13;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .add-container button:hover {
+      background-color: #0eee33;
+    }
+
+    @media (max-width: 480px) {
+      .add-container {
+        padding: 20px;
+        margin: 20px;
+      }
+
+     .add-container input,
+      select,
+      button {
+        font-size: 15px;
+      }
+    }
+
+.players-container {
+      background: #f3f0f0;
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 12px;
+      border: solid 2px;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .info-row h3,
+    .info-row p {
+      margin: 0;
+      color: #080707;
+    }
+
+    .info-row button {
+      padding: 5px 10px;
+      font-size: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .edit-btn {
+      background-color: #1707ff;
+      color: #fff;
+      width: 50px;
+    }
+
+    .delete-btn {
+      background-color: #e40303;
+      color: #fff;
+      width: 50px;
+    }
+
+    .view-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #24e338;
+      color: white;
+      border: none;
+      font-size: 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .view-btn:hover {
+      background-color: #81cca8;
+    }
