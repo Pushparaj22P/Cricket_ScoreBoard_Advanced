@@ -15,22 +15,22 @@
         </div>
     </nav>
     <div class="container">
-        <form action="submit">
-            <div class="form_container">
-                <label for="email">Team Name</label>
-                <input type="text" placeholder="Enter Your Team Name">
-                <label for="email">Location/Area</label>
-                <input type="text" placeholder="Enter Your Location/Area">
-                <button id="create_button">Create</button>
-            </div>
-        </form>
-        <div class="teams">
-            <h3>Team 1</h3>
-            <p>Team Name</p>
-            <p>Location/Area</p>
-            <a href="./players.html">View</a>
+        <form id="teamForm">
+    <div class="form_container">
+      <label for="teamName">Team Name</label>
+      <input type="text" id="teamName" placeholder="Enter Your Team Name" required>
+      <br><br>
+      <label for="location">Location/Area</label>
+      <input type="text" id="location" placeholder="Enter Your Location/Area" required>
+      <br><br>
+      <button type="submit" id="create_button">Create</button>
+    </div>
+  </form>
+        <div id="teamsContainer">
+            
         </div>
 
     </div>
+    <script src="../js/teams.js"></script>
 </body>
 </html>

@@ -15,31 +15,25 @@
         <a href="">PROFILE</a>
         </div>
     </nav>
+    <h2 id="teamTitle"></h2>
     <div class="add-container">
-        <h3>Add Player</h3>
-        <label for="">Player Name</label>
-        <input type="text">
-        <label for="">Player Type</label>
-        <select name="Type" id="">
-            <option selected>Select</option>
-            <option value="Batsman">Batsman</option>
-            <option value="Bowler">Bowler</option>
-            <option value="AllRounder">AllRounder</option>
-            <option value="Audience">Audience</option>
-        </select>
-        <button>ADD</button>
-    </div>
-    <h2>Team Name</h2>
-    <div class="players-container">
-    <div class="info-row">
-      <h3>Player 1</h3>
-      <button class="edit-btn">Edit</button>
-    </div>
-    <div class="info-row">
-      <p>Batsman</p>
-      <button class="delete-btn">Delete</button>
-    </div>
-    <button class="view-btn">View</button>
+    <h3>Add Player</h3>
+    <label>Player Name</label>
+    <input type="text" id="playerNameInput" placeholder="Enter Player Name">
+    <br><br>
+    <label>Player Type</label>
+    <select id="playerTypeSelect">
+      <option selected disabled>Select</option>
+      <option value="Batsman">Batsman</option>
+      <option value="Bowler">Bowler</option>
+      <option value="AllRounder">AllRounder</option>
+      <option value="Audience">Audience</option>
+    </select>
+    <br><br>
+    <button id="addPlayerBtn">ADD</button>
   </div>
+  <div id="playersContainer"></div>
+
+    <script src="../js/players.js"></script>
 </body>
 </html>

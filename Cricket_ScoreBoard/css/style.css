@@ -160,14 +160,53 @@ body {
         font-size: 15px;
       }
     }
+    .action-buttons{
+      margin-top: 10px;
+    }
 
-.players-container {
+    .action-buttons button {
+      margin-right: 10px;
+    }
+    .editBtn{
+      background-color: #2005f1;
+      border-radius: 15px;
+      border: solid 4px;
+      border-color: #120253;
+      color: white;
+    }
+    .editBtn:hover{
+      background-color: #8d89e3;
+
+    }
+    .deleteBtn:hover{
+      background-color: #f09595;
+    }
+    .deleteBtn{
+      background-color: #f40404;
+      border-radius: 15px;
+      border: solid 4px;
+      border-color: #023d53;
+      color: white;
+    }
+#playersContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+    }
+    .player{
       background: #f3f0f0;
-      max-width: 400px;
-      margin: auto;
+      width: 300px;
       padding: 20px;
       border-radius: 12px;
       border: solid 2px;
+      margin: auto;
+      margin-top: 10px;
+    }
+    #teamTitle{
+      color: #24e338;
+      margin-left: auto;
+      font-size: 30px;
     }
 
     .info-row {
